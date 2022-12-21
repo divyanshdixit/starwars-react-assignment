@@ -1,0 +1,31 @@
+
+table {
+    border:1px solid #298165
+}
+.MuiTableHead-root {
+    background: #298165;
+}
+th.MuiTableCell-root {
+    background: none;
+    color: #ffffff;
+}
+
+.MuiTableSortLabel-root{
+    color: #ffffff;
+}
+.MuiTableSortLabel-root.Mui-active {
+    color: #ffffff!important;
+}
+.MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon{
+    color: #ffffff!important;
+}
+.MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon:hover{
+    color: #fbff00!important;
+}
+.MuiTableSortLabel-root:hover {
+    color:#fbff00!important;
+}
+
+.MuiTableCell-body {
+    border-bottom: 1px solid #298165!important;
+}

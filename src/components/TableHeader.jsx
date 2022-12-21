@@ -4,7 +4,6 @@ import TableRow from '@mui/material/TableRow';
 import TableCell from '@mui/material/TableCell';
 import {headCells} from '../constant';
 
-
 function EnhancedTableHead(props) {
     const { order, orderBy, onRequestSort } = props;
     const createSortHandler = (property) => (event) => {
@@ -19,9 +18,7 @@ function EnhancedTableHead(props) {
                         key={headCell.id}
                         component="th"
                         align="center"
-                        //   align={headCell.numeric ? 'right' : 'left'}
                         sortDirection={orderBy === headCell.id ? order : false}
-                        style={{ backgroundColor: '#eee', color:'#000', fontWeight:600 }}
                     >
                         <TableSortLabel
                             active={(headCell.id === 'name') || (headCell.id === 'films')}

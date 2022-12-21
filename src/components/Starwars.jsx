@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import { URL, ASC, DESC } from '../constant/index';
 import EnhancedTableHead from './TableHeader';
 import EnhancedTableFooter from './TableFooter';
+import '../styles/components/index.css'
 
 export default function Starwars() {
     const [rowData, setRowData] = useState({ results: [] });
